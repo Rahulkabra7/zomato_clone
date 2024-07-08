@@ -120,11 +120,40 @@ body{
 }
 .Collections_div_top{
     display: flex;
+    margin-left: 210px;
+    position: relative;
+}
+.All_collections_in_Pune_div{
+    position: absolute;
+    margin-top: 7%;
+    margin-left: 70%;
+}
+.All_collections_in_Pune_div a{
+    text-decoration: none;
+    font-size: large;
+    font-weight: 400;
+    color: rgb(255, 126, 139);
+}
+.All_collections_in_Pune_div a:hover{
+    /* text-decoration: none;
+    font-size: large;
+    font-weight: 400; */
+    color: rgb(224, 53, 70);
+}
+.Collections_div_top_part h1{
+    font-size: 40px;
+    font-weight: 500;
+    padding-bottom: 0%;
+    margin-bottom: 2%;
+}
+.Collections_div_top_part p{
+    font-size: larger;
+    margin-top: 0px;
 }
 .Collections_img1{
-    width: 225px;
-    height: 300px;
-    border-radius: 12px;
+    width: 270px;
+    height: 330px;
+    border-radius: 8px;
 }
 .Collections_div_mid{
     display: flex;
@@ -139,16 +168,118 @@ body{
 }
 .Collections_card_info{
     position: absolute;
-    top: 210px;
-    width: 215px;
+    top: 240px;
+    width: 260px;
     border-radius: 0 0 12px 12px;
     padding-left:10px ;
     color: white;
-    background-color: rgba(0, 0, 0, 0.5);
+    background: linear-gradient(rgba(0 , 0 , 0, 0.1),rgba(0, 0, 0, 0.9));
+    /* background-color: rgba(0, 0, 0, 0.5); */
     /* padding: ; */
 }
 .Collections_card_info h2{
     font-size: larger;
     font-weight: lighter;
+}
+.All_collections_in_Pune{
+    margin: 10px;
+    padding-top: 300px;
+}
+.Popular_localities_main_div h1{
+    padding-left: 210px;
+    padding-top: 60px;
+    color: rgb(54, 54, 54);
+    font-size: 3rem;
+    line-height: 1.2;
+    font-weight: 400;}
+.Popular_localities_loc_div_1{
+    display: flex;
+    margin-left: 190px;
+}
+.Popular_localities_loc{
+    border: 1px solid darkgrey;
+    border-radius: 8px;
+    width: 365px;
+    height: 78px;
+    margin: 8px 8px 8px 8px;
+    /* box-shadow:  20px black; */
+}
+.Popular_localities_loc h2{
+    margin: 0px;
+    padding: 5px;
+    padding-left: 15px;
+    font-size:24px;
+    font-weight: lighter;
+    color: rgb(28, 28, 28);
 
+}
+
+.Popular_localities_loc h3{
+    margin: 0px;
+    padding: 0px;
+    padding-left: 15px;
+    font-size: larger;
+    font-weight: 500;
+    line-height: 1.5;
+    color: rgb(54, 54, 54);
+}
+.expand_button{
+    position: absolute;
+}
+
+.Popular_localities_loc_2 h2{
+    margin: 0px;
+    padding: 5px;
+    padding-left: 15px;
+    font-size:24px;
+    padding-top:25px ;
+    margin-left: -100px;
+    font-weight: lighter;
+    color: rgb(28, 28, 28);
+}
+
+.Popular_localities_loc_2{
+    border: 1px solid darkgrey;
+    position: relative;
+    border-radius: 8px;
+    width: 365px;
+    height: 78px;
+    text-align: center;
+    margin: 8px 8px 8px 8px;
+    /* box-shadow:  20px black; */
+}
+.expand_button_img{
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    margin-left:20px;
+    top: -30px
+}
+.Popular_localities_loc_div_1 a{
+    text-decoration: none;
+}
+.phone_img{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+}
+.Get_the_zomato_app{
+    margin-left: 450px;
+    margin-top: 200px;
+    position: relative;
+}
+.Get_the_zomato_app_info{
+    margin-left: 270px;
+    position: absolute;
+    top: -60px;
+}
+.Get_the_zomato_app_info h1{
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.Get_the_zomato_app_info h4{
+    font-size: 1.5rem;
+    font-weight: 400;
+    width: 300px;
 }
